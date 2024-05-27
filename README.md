@@ -1,6 +1,10 @@
 # Parallel Computing
 Repository for the final project of the Parallel Programming course (taught by X.Dupré &amp; M.Durut during 2nd Semester of the final year at ENSAE Paris). Basically, based on [a Llama model](https://huggingface.co/alpindale/Llama-2-7b-ONNX), we have performed a kernel fusion (on CPU) between two matrix operations: a matrix multiplication and a transposition.
 
+<p align="center">
+  <img src="https://github.com/JulesBrable/parallel_computing/blob/main/netron.png" width="400" />
+</p>
+
 ## Contents
 
 * `sigmul.cpp` is the C++ version of our kernel fusion
